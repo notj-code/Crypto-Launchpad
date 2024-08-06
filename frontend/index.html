@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Launchpad</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Launchpad</h1>
+        <div class="form-group">
+            <input type="text" id="tokenName" placeholder="Token Name">
+            <input type="text" id="tokenSymbol" placeholder="Token Symbol">
+            <input type="text" id="tokenLogo" placeholder="Token Logo URL">
+            <input type="number" id="ethAmount" placeholder="ETH Amount">
+            <button id="initiateButton">Initiate Fair Launch</button>
+        </div>
+        <div class="form-group">
+            <input type="number" id="buyAmount" placeholder="Amount to Buy">
+            <button id="buyButton">Buy Tokens</button>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
